@@ -22,7 +22,7 @@
 
 ## 1. 已经建成的工程（CODI-138）
 
-`mv-wo-xiang-part2/film/`，规范见 `film/SHOT_SPEC.md`：
+`film/`，规范见 `film/SHOT_SPEC.md`：
 
 | 文件 | 作用 |
 | --- | --- |

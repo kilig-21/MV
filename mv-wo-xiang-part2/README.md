@@ -2,7 +2,7 @@
 
 用户提供歌曲与 LRC，主角指定为 Clawd 小螃蟹。当前阶段：十秒副歌样片 v3 已获用户认可，完整 MV 仍在讨论，尚未制作完成。
 
-继续前先读父目录的 [PROJECT_CONTEXT.md](../PROJECT_CONTEXT.md)，其中区分已确认方向、用户纠正和未定稿提议。最新首要标准是画面跟着歌词走；神情辅助，外观保持短肢 Clawd。
+继续前先读同目录的 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)，其中区分已确认方向、用户纠正和未定稿提议。最新首要标准是画面跟着歌词走；神情辅助，外观保持短肢 Clawd。
 
 合格样片：[wo-xiang-chorus-v3.mp4](chorus-preview-v3/wo-xiang-chorus-v3.mp4)。纯 2D 像素、完整像素字幕、原歌原声，整只角色在不同音符间跳跃。v1 内容变化不足、v2 肢体变形，均保留作历史对照，不作为当前标准。
 

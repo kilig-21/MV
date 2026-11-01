@@ -1,6 +1,6 @@
 # 《我想 part2》像素 MV · 对话背景与项目交接
 
-> **2026-10-31 更新**：最新交接见同目录 `HANDOFF-2026-10-31.md`。角色源已改为官方 Clawd on Desk 的 15×16 像素 base（已冻结）；全曲时间轴与第一段主歌分镜已产出。**画风以 `mv-wo-xiang-part2/style-reference/` 的三张参考图为准：2D 扁平手绘卡通、粗黑描边、暖色低饱和、简单舞台、小螃蟹有表情、多角色换色。** 本文以下内容为 2026-10-29 的历史背景，涉及角色源、制作阶段、纯像素风的旧结论以新文档为准。
+> **2026-10-31 更新**：最新交接见同目录 `HANDOFF-2026-10-31.md`。角色源已改为官方 Clawd on Desk 的 15×16 像素 base（已冻结）；全曲时间轴与第一段主歌分镜已产出。**画风以 `style-reference/` 的三张参考图为准：2D 扁平手绘卡通、粗黑描边、暖色低饱和、简单舞台、小螃蟹有表情、多角色换色。** 本文以下内容为 2026-10-29 的历史背景，涉及角色源、制作阶段、纯像素风的旧结论以新文档为准。
 
 整理日期：2026-10-29。来源：本次对话中可见的用户表达、历次纠正，以及核对后的本地项目文件。用于其他对话承接本项目，不是个人全局记忆，也不是聊天逐字存档。用户后续明确指令优先。
 
@@ -135,9 +135,9 @@
 
 ```powershell
 Set-Location C:/Users/Lenovo/Desktop/ALLCODE/Anima
-node mv-wo-xiang-part2/chorus-preview-v3/build.mjs --stills
-node mv-wo-xiang-part2/chorus-preview-v3/check-frames.mjs
-node mv-wo-xiang-part2/chorus-preview-v3/build.mjs
+node chorus-preview-v3/build.mjs --stills
+node chorus-preview-v3/check-frames.mjs
+node chorus-preview-v3/build.mjs
 ```
 
 build.mjs 会调用库内渲染工具，然后以原 FLAC 截取配音轨；不是从 v2 的 MP4 二次压制。
@@ -162,4 +162,4 @@ build.mjs 会调用库内渲染工具，然后以原 FLAC 截取配音轨；不�
 
 其他对话若不在这个项目中，不能保证自动读取本文件。用户可复制：
 
-> 请先阅读 C:/Users/Lenovo/Desktop/ALLCODE/Anima/PROJECT_CONTEXT.md，接着讨论《我想 part2》像素 MV。合格参考是 chorus-preview-v3，重点是画面跟歌词走；目前先讨论，暂不制作。
+> 请先阅读 C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/PROJECT_CONTEXT.md，接着讨论《我想 part2》像素 MV。合格参考是 chorus-preview-v3，重点是画面跟歌词走；目前先讨论，暂不制作。

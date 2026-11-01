@@ -15,20 +15,30 @@
 
 ## 目录
 
+**《我想 part2》的全部稿子与工程收在 `mv-wo-xiang-part2/` 里；根目录只放可复用的制作经验。**
+
 ```
-mv-wo-xiang-part2/
-  assets/            原曲音频（不入库）
-  timeline/          对轨时间轴、歌词分析、各段分镜
-  style-lock/        画风规范（色值、描边、画幅、编码）
-  character-lock/    角色基准与轮廓校验
-  film/              渲染工程
-    index.html       页面：window.READY / DUR / render(t)
-    build.mjs        构建 CLI：stills / shot / cut / film / still-range
-    shots/           每个镜头一个模块
-    src/             调色、原语、角色、场景、字幕、表情、转场
-    orchestration/   并行制作的规格、报告、评审清单、合片手册
-tools/view-image.py  读图前的降采样工具
-WORKFLOW-LESSONS.md  这套流程的经验总结（可复用）
+mv-wo-xiang-part2/                《我想 part2》MV
+  HANDOFF-*.md                    交接记录（最新一份先读）
+  PROJECT_CONTEXT.md              项目背景与已确认方向
+  START-PROMPT.md                 新对话的启动提示词
+  BRIEF.md  README.md             项目简介
+  timeline/                       对轨时间轴、逐句歌词分析、各段分镜
+  assets/                         原曲音频与歌词（不入库）
+  style-reference/                画风参考图（官方 MV 截屏）
+  style-study/                    画风研究
+  character-lock/                 官方 Clawd 15×16 基准与轮廓校验
+  film/                           渲染工程
+    style-lock/STYLE_LOCK.md      画风与输出规范（正本）
+    index.html                    页面：window.READY / DUR / render(t)
+    build.mjs                     构建 CLI：stills / shot / cut / film / still-range
+    shots/                        92 个镜头模块，一镜一文件
+    src/                          调色、原语、角色、场景、字幕、表情、转场
+    orchestration/                并行制作的规格、报告、评审清单、合片手册、STATUS
+  chorus-preview*/                早期画风原型（历史留档）
+
+WORKFLOW-LESSONS.md               这套流程的经验总结（可复用，可做成 skill）
+tools/view-image.py               读图前的降采样工具
 ```
 
 ## 重新出片

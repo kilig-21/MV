@@ -1,6 +1,6 @@
 # Anima 项目交接入口
 
-继续《我想 part2》像素 MV 之前，先读取本目录的 **`HANDOFF-ADDENDUM-2026-10-31-1140.md`（最新，补记 11:38 之前的全部进展）**，再读 `HANDOFF-2026-10-31.md`（01:31 版，其中“纯像素”类验收标准已被 `film/style-lock/STYLE_LOCK.md` 取代）和 `PROJECT_CONTEXT.md`（2026-10-29 的历史背景）。新对话的启动提示词见 `START-PROMPT.md`。
+继续《我想 part2》像素 MV 之前，先读取 **`mv-wo-xiang-part2/HANDOFF-ADDENDUM-2026-10-31-1140.md`（最新，补记 11:38 之前的全部进展）**，再读 `mv-wo-xiang-part2/HANDOFF-2026-10-31.md`（01:31 版，其中“纯像素”类验收标准已被 `mv-wo-xiang-part2/film/style-lock/STYLE_LOCK.md` 取代）和 `mv-wo-xiang-part2/PROJECT_CONTEXT.md`（2026-10-29 的历史背景）。新对话的启动提示词见 `mv-wo-xiang-part2/START-PROMPT.md`。
 
 **2026-11-01 11:55 起，全片已完成并经过四轮打磨**：92 镜覆盖 0–281.551771 秒，成片在 `mv-wo-xiang-part2/film/out/wo-xiang-part2.mp4`（1920×1080 / 24 fps / H.264 + AAC）。当前状态、验收记录、已知限制与重跑方法看 `mv-wo-xiang-part2/film/orchestration/STATUS.md` 和 `ASSEMBLY.md`，各段工人的报告在同目录 `report-*.md`，外部评审清单在 `review-*.md`。
 

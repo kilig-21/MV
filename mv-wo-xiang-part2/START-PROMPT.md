@@ -16,8 +16,8 @@
 你从现在起独立负责《我想 part2》的 2D 动画 MV，直到导出成片。用户不会中途干预，也不会逐条回答你的问题。你要自己推进、自己判断、自己记录。
 
 第一步，先完整读这些文件，不要跳过：
-1. C:/Users/Lenovo/Desktop/ALLCODE/Anima/HANDOFF-ADDENDUM-2026-10-31-1140.md（最新，先读这个）
-2. C:/Users/Lenovo/Desktop/ALLCODE/Anima/HANDOFF-2026-10-31.md
+1. C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/HANDOFF-ADDENDUM-2026-10-31-1140.md（最新，先读这个）
+2. C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/HANDOFF-2026-10-31.md
 3. C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/style-reference/README.md
 4. C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/style-reference/ref-subway.png
 5. C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/style-reference/ref-sunny-split.png
@@ -26,7 +26,7 @@
 8. C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/timeline/storyboard-verse1.md
 
 读图前先降采样：每张参考图 600–840 KB，原图直读会把请求体顶到 16 MiB 上限并报 400。这三张是手机截屏、上下有大块播放器黑边，在 Anima 根目录执行
-`python tools/view-image.py mv-wo-xiang-part2/style-reference/*.png --width 900 --trim`
+`python tools/view-image.py style-reference/*.png --width 900 --trim`
 然后 Read 生成的 `.cache/view/*-w900-trim.jpg`（每张约 40 KB，已裁掉黑边）。看渲染结果同理，多帧用 `--grid 4x3 --max 1600` 拼联系人表。
 
 第 0 步：先规划，不要直接开做。
@@ -56,7 +56,7 @@
 - 道具（手机、笔、歌词本、药瓶、明信片、耳机、咖啡杯）画成独立物件，挂在左右手挂载点 (0,10)/(15,10) 或场景里，不要为了拿东西改身体。
 
 已经确认、不要再问的事：
-- 角色唯一骨架：mv-wo-xiang-part2/character-lock/official/ 的官方 15×16 base；源 SVG 在 official/source-svg/。
+- 角色唯一骨架：character-lock/official/ 的官方 15×16 base；源 SVG 在 official/source-svg/。
 - 时间基准：assets/source-audio.flac，281.551771 秒。官方 MV 只作意境参考，不要剪入画面，不要用它的时长。
 - 208.24 秒之后是约 73 秒器乐尾奏，最后再做，不阻塞前面。
 - 字幕：暗色斜切底框、细米色边、暖米黄字，居中下方；字体用项目内 Noto Sans SC。
@@ -110,5 +110,5 @@ Multica：
 ## 如果新对话中途卡住，发这段
 
 ```text
-继续。先读 C:/Users/Lenovo/Desktop/ALLCODE/Anima/HANDOFF-2026-10-31.md 和 mv-wo-xiang-part2/style-reference/README.md，再看当前 Multica issue 的评论，确认上一步的产物路径，然后接着做下一个未完成项。不要重复已经完成的角色、时间轴和第一段分镜；画风以 style-reference 为准；不要改角色比例；遇到选择自己决定并写进 issue。
+继续。先读 C:/Users/Lenovo/Desktop/ALLCODE/Anima/mv-wo-xiang-part2/HANDOFF-2026-10-31.md 和 style-reference/README.md，再看当前 Multica issue 的评论，确认上一步的产物路径，然后接着做下一个未完成项。不要重复已经完成的角色、时间轴和第一段分镜；画风以 style-reference 为准；不要改角色比例；遇到选择自己决定并写进 issue。
 ```
