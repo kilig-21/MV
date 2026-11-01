@@ -4,6 +4,8 @@
 
 **2026-11-01 11:55 起，全片已完成并经过四轮打磨**：92 镜覆盖 0–281.551771 秒，成片在 `mv-wo-xiang-part2/film/out/wo-xiang-part2.mp4`（1920×1080 / 24 fps / H.264 + AAC）。当前状态、验收记录、已知限制与重跑方法看 `mv-wo-xiang-part2/film/orchestration/STATUS.md` 和 `ASSEMBLY.md`，各段工人的报告在同目录 `report-*.md`，外部评审清单在 `review-*.md`。
 
+做下一支 MV 之前，先读根目录的 **`WORKFLOW-LESSONS.md`**（编排方式、上下文字节、表现力写法、质检手段、失败模式，可直接改造成 skill）。
+
 - 角色唯一源：`mv-wo-xiang-part2/character-lock/official/` 的官方 Clawd on Desk **15×16 像素 base**，已冻结。v2 的长手臂与关节腿、3D 封面版、JPEG 抠图版均已否定。
 - 当前阶段：用户已授权新对话独立推进全片，不中途干预。不要再回到“只讨论不制作”。
 - 最新画风参考：`mv-wo-xiang-part2/style-reference/`（2D 扁平手绘卡通、粗描边、暖色、简单舞台、小螃蟹有表情、多角色换色）。`chorus-preview-v3/` 只作字幕与制作管线参考，不再作为画风目标。角色比例仍以官方 base 为准。
