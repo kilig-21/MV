@@ -42,7 +42,11 @@ tools/view-image.py               读图前的降采样工具
 
 ## 重新出片
 
-需要 Playwright 的 chromium-headless-shell 与 ffmpeg（项目内 `.tools/ffmpeg` 或系统 PATH）。
+需要 Playwright 的 chromium-headless-shell，以及 ffmpeg。
+
+`.tools/` 不入库（便携工具），本机目前也没有——重建时从
+https://www.gyan.dev/ffmpeg/builds/ 下载 essentials build，解压到 `.tools/ffmpeg/`
+（使其含 `bin/ffmpeg.exe`），或把系统的 ffmpeg 加进 PATH。
 
 ```bash
 node mv-wo-xiang-part2/film/build.mjs film
