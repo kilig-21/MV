@@ -35,7 +35,6 @@ mv-wo-xiang-part2/                《我想 part2》MV
     shots/                        92 个镜头模块，一镜一文件
     src/                          调色、原语、角色、场景、字幕、表情、转场
     orchestration/                并行制作的规格、报告、评审清单、合片手册、STATUS
-  chorus-preview*/                早期画风原型（历史留档）
 
 WORKFLOW-LESSONS.md               这套流程的经验总结（可复用，可做成 skill）
 tools/view-image.py               读图前的降采样工具
