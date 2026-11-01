@@ -42,11 +42,14 @@ tools/view-image.py               读图前的降采样工具
 
 ## 重新出片
 
-需要 Playwright 的 chromium-headless-shell，以及 ffmpeg。
+需要三样东西：
 
-`.tools/` 不入库（便携工具），本机目前也没有——重建时从
-https://www.gyan.dev/ffmpeg/builds/ 下载 essentials build，解压到 `.tools/ffmpeg/`
-（使其含 `bin/ffmpeg.exe`），或把系统的 ffmpeg 加进 PATH。
+1. **原曲**：`mv-wo-xiang-part2/assets/source-audio.flac`，281.551771 秒。仓库里没有（版权 + 体积），
+   需要自己准备；时间轴就是对这一版校准的，换别的版本可能有几十毫秒偏差。
+2. **ffmpeg**：`.tools/` 不入库，本机也没有——从
+   https://www.gyan.dev/ffmpeg/builds/ 下载 essentials build，解压到 `.tools/ffmpeg/`
+   （使其含 `bin/ffmpeg.exe`），或把系统的 ffmpeg 加进 PATH。
+3. **Playwright 的 chromium-headless-shell**：之前渲染用过，通常已经在本机。
 
 ```bash
 node mv-wo-xiang-part2/film/build.mjs film
