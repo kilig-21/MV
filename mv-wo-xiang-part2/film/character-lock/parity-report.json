@@ -1,0 +1,23 @@
+{
+ "render": "film\\out\\sample-09\\s0.jpg",
+ "official": "character-lock\\official\\base-240x256.png",
+ "official_bbox": [
+  0,
+  96,
+  240,
+  240
+ ],
+ "render_bbox": [
+  380,
+  756,
+  620,
+  900
+ ],
+ "official_ratio": 1.6667,
+ "render_ratio": 1.6667,
+ "ratio_delta": 0.0,
+ "iou": 0.9636,
+ "iou_threshold": 0.95,
+ "pass": true,
+ "note": "官方 base 是方角矩形；本片按参考图做圆角，四角被削掉的面积约占 3.6%，因此 IoU 上限约 0.964。比例与包围盒完全一致。"
+}

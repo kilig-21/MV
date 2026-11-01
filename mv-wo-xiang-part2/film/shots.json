@@ -1,0 +1,747 @@
+{
+  "version": "1",
+  "fps": 24,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "audio": "../assets/source-audio.flac",
+  "shots": [
+    {
+      "id": "v1-01",
+      "t0": 20.97,
+      "t1": 21.89,
+      "lyric": "他们说他变了",
+      "section": "verse1",
+      "scene": "夜街 · 便利店玻璃",
+      "camera": "中景固定",
+      "action": "Clawd 从右向左走进画面，停在自己的倒影前；远处两只小螃蟹剪影指指点点",
+      "change": "走路的四脚交替 → 停住；玻璃里的倒影先转头看它",
+      "transition": "倒影里亮起手机通知光 → 切屏幕",
+      "module": "./shots/v1-01.js",
+      "assets": [
+        "streetStore",
+        "clawd",
+        "phone"
+      ],
+      "char": {
+        "cx": 1240,
+        "by": 738,
+        "u": 20,
+        "parityAt": 0.75
+      }
+    },
+    {
+      "id": "v1-02",
+      "t0": 21.89,
+      "t1": 23.17,
+      "lyric": "歌词不再免费了",
+      "section": "verse1",
+      "scene": "手机屏 · 付费墙",
+      "camera": "特写，屏幕占满",
+      "action": "歌词页面弹出付费墙，价格数字和会员按钮；屏幕光映在两只黑眼上",
+      "change": "短臂点关闭，页面不退，反而又弹出一层",
+      "transition": "屏幕跳出 LAX 航班卡片 → 切登机牌",
+      "module": "./shots/v1-02.js",
+      "assets": [
+        "phone",
+        "clawd"
+      ]
+    },
+    {
+      "id": "v1-03",
+      "t0": 23.17,
+      "t1": 25.8,
+      "lyric": "跑去洛杉矶演出甚至可以免签了",
+      "section": "verse1",
+      "scene": "机场登机口",
+      "camera": "中远景，缓慢横移",
+      "action": "登机口，Clawd 拖着小行李箱；登机牌写 LAX；窗外棕榈树和山脊剪影",
+      "change": "停下看窗外的飞机；行李箱轮子还在转",
+      "transition": "行李牌翻面 → 切桌上的合同",
+      "module": "./shots/v1-03.js",
+      "assets": [
+        "airport",
+        "clawd",
+        "suitcase"
+      ]
+    },
+    {
+      "id": "v1-04",
+      "t0": 25.8,
+      "t1": 28.34,
+      "lyric": "拿下几十万的酬劳生活不再艰险",
+      "section": "verse1",
+      "scene": "出租屋桌前",
+      "camera": "中近景，俯拍",
+      "action": "手机银行余额、合同、信封；一碗没拆的泡面",
+      "change": "看了一眼数字，没有笑，把手机扣在桌上",
+      "transition": "合同下露出旧相机 → 切抽屉",
+      "module": "./shots/v1-04.js",
+      "assets": [
+        "room-desk",
+        "clawd",
+        "phone",
+        "contract"
+      ]
+    },
+    {
+      "id": "v1-05",
+      "t0": 28.34,
+      "t1": 30.3,
+      "lyric": "不再筹钱拍摄8000",
+      "section": "verse1",
+      "scene": "抽屉内部",
+      "camera": "近景固定",
+      "action": "旧相机、写着 8000 的便签、当年众筹页面的打印稿",
+      "change": "短臂把相机放进抽屉，关上；抽屉缝里透出一点光",
+      "transition": "抽屉关上的咔 → 切便利店",
+      "module": "./shots/v1-05.js",
+      "assets": [
+        "drawer",
+        "clawd",
+        "camera-old"
+      ]
+    },
+    {
+      "id": "v1-06",
+      "t0": 30.3,
+      "t1": 31.11,
+      "lyric": "吃顿午饭不再差钱",
+      "section": "verse1",
+      "scene": "便利店收银台",
+      "camera": "中景固定",
+      "action": "便当和价格牌；收银员小螃蟹",
+      "change": "不再数硬币，直接扫码；小票打印出来",
+      "transition": "小票 → 切签名纸",
+      "module": "./shots/v1-06.js",
+      "assets": [
+        "store-counter",
+        "clawd",
+        "phone"
+      ]
+    },
+    {
+      "id": "v1-07",
+      "t0": 31.11,
+      "t1": 33.76,
+      "lyric": "路人开始找他签名和时尚杂志搭边",
+      "section": "verse1",
+      "scene": "夜街 · 签名",
+      "camera": "中景转短臂特写",
+      "action": "粉丝小螃蟹递上时尚杂志；Clawd 用短臂夹笔签名",
+      "change": "笔尖在纸上走；闪光灯亮一下；它抬头",
+      "transition": "签名特写 → 明信片上的同一个签名",
+      "module": "./shots/v1-07.js",
+      "assets": [
+        "night-street",
+        "clawd",
+        "pen",
+        "magazine"
+      ]
+    },
+    {
+      "id": "v1-08",
+      "t0": 33.76,
+      "t1": 36.15,
+      "lyric": "收到了很多礼物源源不断的明信片",
+      "section": "verse1",
+      "scene": "出租屋门口",
+      "camera": "俯拍中景",
+      "action": "明信片从门缝滑入，堆成小山；礼物盒；Clawd 坐在纸堆中间拆信",
+      "change": "一张张明信片滑进来；四脚被纸埋住",
+      "transition": "明信片翻面是舞台灯光 → 切舞台",
+      "module": "./shots/v1-08.js",
+      "assets": [
+        "room-door",
+        "clawd",
+        "letter"
+      ]
+    },
+    {
+      "id": "v1-09",
+      "t0": 36.15,
+      "t1": 37.51,
+      "lyric": "那得之不易的光鲜",
+      "section": "verse1",
+      "scene": "舞台侧幕",
+      "camera": "远景，缓慢拉远",
+      "action": "闪光灯连成一片；Clawd 站在光里，影子被拉得很长",
+      "change": "镜头拉远，它在画面里越来越小",
+      "transition": "闪光灯白 → 闪回顶灯",
+      "module": "./shots/v1-09.js",
+      "assets": [
+        "stage",
+        "clawd"
+      ],
+      "char": {
+        "cx": 960,
+        "by": 800,
+        "u": 15.7,
+        "parityAt": 0.7
+      }
+    },
+    {
+      "id": "v1-10",
+      "t0": 37.51,
+      "t1": 38.76,
+      "lyric": "没有埋没他的历练",
+      "section": "verse1",
+      "scene": "地下排练室",
+      "camera": "中景固定",
+      "action": "空椅子、一盏顶灯、墙上旧海报；地上有汗渍",
+      "change": "闪回：独自练习，动作比现在笨拙",
+      "transition": "顶灯灭 → 切身体近景",
+      "module": "./shots/v1-10.js",
+      "assets": [
+        "rehearsal-room",
+        "clawd"
+      ]
+    },
+    {
+      "id": "v1-11",
+      "t0": 38.76,
+      "t1": 41.39,
+      "lyric": "但是有些东西至今仍在他的骨子里面",
+      "section": "verse1",
+      "scene": "身体近景",
+      "camera": "特写，慢推",
+      "action": "短臂和四脚，旧耳机线缠在臂上；胸口透出地铁线路图的光",
+      "change": "线路图的光沿着身体走；它低头看自己的脚",
+      "transition": "线路图的光 → 地铁车厢灯",
+      "module": "./shots/v1-11.js",
+      "assets": [
+        "clawd",
+        "headphones"
+      ]
+    },
+    {
+      "id": "v1-12",
+      "t0": 41.39,
+      "t1": 44.05,
+      "lyric": "就像此时此刻他的交通工具仍叫地铁",
+      "section": "verse1",
+      "scene": "地铁车厢",
+      "camera": "中景固定",
+      "action": "夜班地铁，窗外城市灯光流过；耳机；坐在角落",
+      "change": "四脚并拢，车窗里映出它的脸",
+      "transition": "车窗反射 → 到站人群",
+      "module": "./shots/v1-12.js",
+      "assets": [
+        "carriage",
+        "clawd",
+        "headphones"
+      ],
+      "char": {
+        "cx": 372,
+        "by": 746,
+        "u": 18,
+        "parityAt": 1.0
+      }
+    },
+    {
+      "id": "v1-13",
+      "t0": 44.05,
+      "t1": 46.56,
+      "lyric": "人来人往谁又在乎他是什么逼脸",
+      "section": "verse1",
+      "scene": "车厢门口",
+      "camera": "中景，轻微手持",
+      "action": "到站，乘客小螃蟹涌进涌出，从它身边掠过",
+      "change": "被挤在门边，没有人看它；它低头看手机",
+      "transition": "手机屏幕 8:30 → 床头闹钟 8:30",
+      "module": "./shots/v1-13.js",
+      "assets": [
+        "carriage",
+        "clawd",
+        "phone",
+        "crowd"
+      ]
+    },
+    {
+      "id": "v1-14",
+      "t0": 46.56,
+      "t1": 49.16,
+      "lyric": "为了成功他在八点半用安眠药来入夜",
+      "section": "verse1",
+      "scene": "卧室床头",
+      "camera": "近景固定",
+      "action": "闹钟 8:30、药瓶、台灯；窗外霓虹",
+      "change": "短臂拧开药瓶，倒出一粒；关灯，房间暗下",
+      "transition": "台灯灭 → 健身房灯亮",
+      "module": "./shots/v1-14.js",
+      "assets": [
+        "bedside",
+        "clawd",
+        "pillBottle",
+        "lamp"
+      ]
+    },
+    {
+      "id": "v1-15",
+      "t0": 49.16,
+      "t1": 51.86,
+      "lyric": "在你玩闹之时他在健身房里付出一切",
+      "section": "verse1",
+      "scene": "健身房夜",
+      "camera": "中景侧面",
+      "action": "跑步机、哑铃、计时器；镜子里只有它自己",
+      "change": "四脚在跑步机上交替小跑；汗滴落；计时器数字跳",
+      "transition": "跑步机屏幕 → 手机屏幕",
+      "module": "./shots/v1-15.js",
+      "assets": [
+        "gym",
+        "clawd",
+        "treadmill"
+      ]
+    },
+    {
+      "id": "v1-16",
+      "t0": 51.86,
+      "t1": 54.34,
+      "lyric": "手机app里三个学习英语软件",
+      "section": "verse1",
+      "scene": "手机屏",
+      "camera": "特写",
+      "action": "三个英语 App 图标排成一排；背景是健身房灯",
+      "change": "短臂依次点开三个图标；每个图标亮一下",
+      "transition": "屏幕熄灭 → 床沿海报",
+      "module": "./shots/v1-16.js",
+      "assets": [
+        "phone",
+        "clawd"
+      ]
+    },
+    {
+      "id": "v1-17",
+      "t0": 54.34,
+      "t1": 56.69,
+      "lyric": "睁开眼睛2pac海报贴在他的床沿",
+      "section": "verse1",
+      "scene": "卧室",
+      "camera": "中景转近景",
+      "action": "2Pac 海报贴在床沿；台灯灭；窗外街灯",
+      "change": "躺下，睁眼；海报上的街头灯光映在它眼里",
+      "transition": "海报的眼睛 → 唱片声波",
+      "module": "./shots/v1-17.js",
+      "assets": [
+        "bedroom",
+        "clawd",
+        "poster"
+      ]
+    },
+    {
+      "id": "v1-18",
+      "t0": 56.69,
+      "t1": 59.44,
+      "lyric": "Black God告诉他不能满足拥有的一切",
+      "section": "verse1",
+      "scene": "卧室 · 唱片机",
+      "camera": "特写，缓慢拉远",
+      "action": "海报和唱片机；Black God 以剪影或声波出现，不具象成人",
+      "change": "声波从唱片升起；它看着，眼睛映出光；收束到夜色",
+      "transition": "切 hook1 / chorus1",
+      "module": "./shots/v1-18.js",
+      "assets": [
+        "bedroom",
+        "clawd",
+        "record",
+        "poster"
+      ],
+      "char": {
+        "cx": 1430,
+        "by": 736,
+        "u": 23.1,
+        "parityAt": 1.4
+      }
+    },
+    {
+      "id": "c1-01",
+      "t0": 62.39,
+      "t1": 65.93,
+      "lyric": "我想呼风唤雨",
+      "section": "chorus1",
+      "scene": "梦境·海面",
+      "camera": "中景，固定",
+      "action": "角色站在漂浮的车票上抬手，云从两边聚拢，雨丝落下",
+      "change": "抬手 → 风线起 → 雨落下",
+      "transition": "硬切",
+      "module": "./shots/c1-01.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "c1-02",
+      "t0": 65.93,
+      "t1": 67.6,
+      "lyric": "用奇妙旋律",
+      "section": "chorus1",
+      "scene": "梦境·音符",
+      "camera": "近景",
+      "action": "耳机里长出的音符绕成一圈，声波从耳罩扩散",
+      "change": "音符一圈圈涌出",
+      "transition": "动作接",
+      "module": "./shots/c1-02.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "c1-03",
+      "t0": 67.6,
+      "t1": 71.21,
+      "lyric": "我想一日千里",
+      "section": "chorus1",
+      "scene": "梦境·奔跑",
+      "camera": "中景，横向跟随",
+      "action": "车票平台快速后退，远处城市倒退，四脚交替跑",
+      "change": "跑速越来越快",
+      "transition": "动作接",
+      "module": "./shots/c1-03.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "c1-04",
+      "t0": 71.21,
+      "t1": 72.77,
+      "lyric": "踩疯狂节奏",
+      "section": "chorus1",
+      "scene": "梦境·近景",
+      "camera": "特写，脚部",
+      "action": "四脚交替踩下，节拍圈一圈圈炸开",
+      "change": "每踩一下出一圈",
+      "transition": "节拍切",
+      "module": "./shots/c1-04.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "c1-05",
+      "t0": 72.77,
+      "t1": 74.83,
+      "lyric": "我想遨游四海",
+      "section": "chorus1",
+      "scene": "梦境·海",
+      "camera": "远景",
+      "action": "海面张开，远处的岛升起，角色站在车票上摇晃",
+      "change": "海面打开、岛升起",
+      "transition": "拉远",
+      "module": "./shots/c1-05.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "c1-06",
+      "t0": 74.83,
+      "t1": 77.97,
+      "lyric": "让音乐做舟",
+      "section": "chorus1",
+      "scene": "梦境·纸舟",
+      "camera": "中景",
+      "action": "明信片折成的小舟漂来，角色跳上船",
+      "change": "折纸 → 跳上船",
+      "transition": "动作接",
+      "module": "./shots/c1-06.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "c1-07",
+      "t0": 77.97,
+      "t1": 81.81,
+      "lyric": "我想睡在梦里",
+      "section": "chorus1",
+      "scene": "梦境·云床",
+      "camera": "中景，缓推",
+      "action": "被子从床上长成云，角色躺下闭眼，Z 浮起",
+      "change": "闭眼、Z 飘出",
+      "transition": "叠化",
+      "module": "./shots/c1-07.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "c1-08",
+      "t0": 81.81,
+      "t1": 83.32,
+      "lyric": "醒在梦境",
+      "section": "chorus1",
+      "scene": "车厢·窗边",
+      "camera": "近景",
+      "action": "白光退去，回到夜班车厢，角色睁眼",
+      "change": "睁眼、暖光收掉",
+      "transition": "切 verse2",
+      "module": "./shots/c1-08.js",
+      "assets": [
+        "dream",
+        "clawd"
+      ]
+    },
+    {
+      "id": "v2-01",
+      "t0": 83.32,
+      "t1": 85.06,
+      "lyric": "他还有很多梦想必须实现",
+      "section": "verse2",
+      "scene": "出租屋窗台",
+      "camera": "中景，固定",
+      "action": "角色把写着愿望的纸条一张张摆上窗台",
+      "change": "最后一张写「专辑」",
+      "transition": "纸条被风吹动",
+      "module": "./shots/v2-01.js",
+      "assets": []
+    },
+    {
+      "id": "v2-02",
+      "t0": 85.06,
+      "t1": 85.93,
+      "lyric": "但需要时间",
+      "section": "verse2",
+      "scene": "墙上的钟",
+      "camera": "近景，固定",
+      "action": "钟面 2:40，秒针在走；角色在墙下不动",
+      "change": "秒针一格一格走",
+      "transition": "特写秒针",
+      "module": "./shots/v2-02.js",
+      "assets": []
+    },
+    {
+      "id": "v2-03",
+      "t0": 85.93,
+      "t1": 88.08,
+      "lyric": "他想看见太阳却总有乌云遮挡视野",
+      "section": "verse2",
+      "scene": "城市上空",
+      "camera": "远景，仰拍",
+      "action": "云慢慢移过来遮住暖色的路灯，城市暗一档",
+      "change": "遮住 → 移开",
+      "transition": "云散",
+      "module": "./shots/v2-03.js",
+      "assets": []
+    },
+    {
+      "id": "v2-04",
+      "t0": 88.08,
+      "t1": 90.65,
+      "lyric": "别人想得到镶满宝钻红灯绿酒之鞋",
+      "section": "verse2",
+      "scene": "鞋店橱窗",
+      "camera": "中景",
+      "action": "橱窗里镶满亮片的鞋，玻璃外两只小螃蟹看呆了",
+      "change": "灯一亮一暗",
+      "transition": "玻璃反光",
+      "module": "./shots/v2-04.js",
+      "assets": []
+    },
+    {
+      "id": "v2-05",
+      "t0": 90.65,
+      "t1": 93.5,
+      "lyric": "他却偏偏钟爱布鞋迈步每个台阶",
+      "section": "verse2",
+      "scene": "台阶",
+      "camera": "中景，侧面",
+      "action": "角色穿布鞋一级一级往上迈，比旁边快",
+      "change": "四脚交替上楼",
+      "transition": "走到顶",
+      "module": "./shots/v2-05.js",
+      "assets": []
+    },
+    {
+      "id": "v2-06",
+      "t0": 93.5,
+      "t1": 95.93,
+      "lyric": "外公说有实力的人必须保持谦逊",
+      "section": "verse2",
+      "scene": "旧屋",
+      "camera": "中景，固定",
+      "action": "年长的绿螃蟹抬手向下压，角色低头听",
+      "change": "压手 → 点头",
+      "transition": "台灯",
+      "module": "./shots/v2-06.js",
+      "assets": []
+    },
+    {
+      "id": "v2-07",
+      "t0": 95.93,
+      "t1": 98.67,
+      "lyric": "但满大街的忙人却爱等待漫天馅饼",
+      "section": "verse2",
+      "scene": "大街",
+      "camera": "远景，俯拍",
+      "action": "满街的人仰头，馅饼形状的传单从天上落下",
+      "change": "人群仰头伸手",
+      "transition": "传单落下",
+      "module": "./shots/v2-07.js",
+      "assets": []
+    },
+    {
+      "id": "v2-08",
+      "t0": 98.67,
+      "t1": 100.86,
+      "lyric": "曾经他渴望名利错失一段爱情",
+      "section": "verse2",
+      "scene": "长椅",
+      "camera": "中景",
+      "action": "两只螃蟹背对背坐着，中间空出一个人的距离；一只站起来走开",
+      "change": "起身离开",
+      "transition": "空椅子",
+      "module": "./shots/v2-08.js",
+      "assets": []
+    },
+    {
+      "id": "v2-09",
+      "t0": 100.86,
+      "t1": 103.86,
+      "lyric": "如今他看淡风月把心事给埋藏在了心底",
+      "section": "verse2",
+      "scene": "木盒",
+      "camera": "近景，俯拍",
+      "action": "旧木盒里压着没寄出的信；角色把信放进去、盖上",
+      "change": "合盖",
+      "transition": "合上",
+      "module": "./shots/v2-09.js",
+      "assets": []
+    },
+    {
+      "id": "v2-10",
+      "t0": 103.86,
+      "t1": 106.33,
+      "lyric": "他的话在变少总埋头苦干不喘息",
+      "section": "verse2",
+      "scene": "书桌",
+      "camera": "中景，侧后方",
+      "action": "写满字的纸越摞越高，角色埋头写不停",
+      "change": "笔尖不停",
+      "transition": "纸倒下",
+      "module": "./shots/v2-10.js",
+      "assets": []
+    },
+    {
+      "id": "v2-11",
+      "t0": 106.33,
+      "t1": 108.85,
+      "lyric": "即使他即刻逝世也能出版四张专辑",
+      "section": "verse2",
+      "scene": "封面墙",
+      "camera": "中景，正面",
+      "action": "四张专辑封面钉在墙上，角色钉上最后一张",
+      "change": "钉第四张",
+      "transition": "退后一步",
+      "module": "./shots/v2-11.js",
+      "assets": []
+    },
+    {
+      "id": "v2-12",
+      "t0": 108.85,
+      "t1": 109.91,
+      "lyric": "他必须努力",
+      "section": "verse2",
+      "scene": "脸部特写",
+      "camera": "特写",
+      "action": "眼睛下有阴影，眼神从疲惫变成用力",
+      "change": "眼神变化",
+      "transition": "硬切",
+      "module": "./shots/v2-12.js",
+      "assets": []
+    },
+    {
+      "id": "v2-13",
+      "t0": 109.91,
+      "t1": 110.92,
+      "lyric": "朋友问何必？",
+      "section": "verse2",
+      "scene": "门口",
+      "camera": "中景，双人",
+      "action": "朋友摊开短臂问「何必呢」",
+      "change": "摊手",
+      "transition": "动作接",
+      "module": "./shots/v2-13.js",
+      "assets": []
+    },
+    {
+      "id": "v2-14",
+      "t0": 110.92,
+      "t1": 111.85,
+      "lyric": "也许为何力",
+      "section": "verse2",
+      "scene": "脸部近景",
+      "camera": "近景",
+      "action": "角色张嘴又闭上，短臂抬起又放下",
+      "change": "欲言又止",
+      "transition": "硬切",
+      "module": "./shots/v2-14.js",
+      "assets": []
+    },
+    {
+      "id": "v2-15",
+      "t0": 111.85,
+      "t1": 114.12,
+      "lyric": "也许为人们明白说唱不是儿戏",
+      "section": "verse2",
+      "scene": "小舞台",
+      "camera": "中景",
+      "action": "台上只有一盏灯，台下一圈小螃蟹抬头听",
+      "change": "开口、灯亮一档",
+      "transition": "灯亮",
+      "module": "./shots/v2-15.js",
+      "assets": []
+    },
+    {
+      "id": "v2-16",
+      "t0": 114.12,
+      "t1": 116.4,
+      "lyric": "为了有天他的父亲递给同事耳机",
+      "section": "verse2",
+      "scene": "暖色回忆（想象）",
+      "camera": "中景",
+      "action": "父亲的绿螃蟹把耳机递给同事",
+      "change": "递耳机",
+      "transition": "耳机线",
+      "module": "./shots/v2-16.js",
+      "assets": []
+    },
+    {
+      "id": "v2-17",
+      "t0": 116.4,
+      "t1": 118.99,
+      "lyric": "自豪他儿子是个了不起的说唱巨星",
+      "section": "verse2",
+      "scene": "暖色回忆（想象）",
+      "camera": "中景",
+      "action": "父亲指着墙上角色的海报，很骄傲",
+      "change": "指海报",
+      "transition": "海报放大",
+      "module": "./shots/v2-17.js",
+      "assets": []
+    },
+    {
+      "id": "v2-18",
+      "t0": 118.99,
+      "t1": 121.5,
+      "lyric": "他记得那些无人问津的岁月",
+      "section": "verse2",
+      "scene": "空场",
+      "camera": "远景",
+      "action": "空荡荡的折叠椅，只有角色站在灯下；灯一盏盏灭",
+      "change": "灭灯",
+      "transition": "灭灯 → hook2",
+      "module": "./shots/v2-18.js",
+      "assets": []
+    }
+  ]
+}

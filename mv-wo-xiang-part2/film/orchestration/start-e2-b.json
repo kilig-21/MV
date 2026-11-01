@@ -1,0 +1,72 @@
+{
+  "id": "45261188-e5c6-40c0-aabb-552e01a4330e",
+  "ok": true,
+  "result": {
+    "runId": "run_ccbbe042a246",
+    "taskId": "task_2942c6adb1c6",
+    "dispatchId": "ctx_ea3c8fb3bdfc",
+    "state": "ready",
+    "stage": "input_accepted",
+    "turnStart": "observed",
+    "setup": {
+      "requested": "not_applicable",
+      "effective": "not_applicable",
+      "source": "existing_worktree",
+      "hookFound": false,
+      "startupPolicy": "start-immediately",
+      "state": "not_applicable"
+    },
+    "launch": {
+      "requested": {
+        "agent": "claude",
+        "model": null,
+        "effort": null
+      },
+      "effective": {
+        "agent": "claude",
+        "model": null,
+        "effort": null
+      }
+    },
+    "mode": {
+      "mode": "structured",
+      "preferred": "structured",
+      "reason": "user_default",
+      "detail": "Started a structured chat session worker, the default for new agent tabs in your settings."
+    },
+    "timeoutMs": 60000,
+    "effects": [
+      {
+        "kind": "worktree",
+        "action": "reused",
+        "id": "ae044b42-f532-42e6-a37c-a09ec575f179::C:\\Users\\Lenovo\\Desktop\\ALLCODE\\Anima"
+      },
+      {
+        "kind": "setup",
+        "action": "not_applicable",
+        "state": "not_applicable"
+      },
+      {
+        "kind": "terminal",
+        "role": "agent",
+        "action": "created",
+        "id": "structworker_54d6bfe7-a031-4a9e-bfde-f2c593230c24",
+        "surface": "background"
+      },
+      {
+        "kind": "dispatch_input",
+        "role": "agent",
+        "id": "structworker_54d6bfe7-a031-4a9e-bfde-f2c593230c24",
+        "state": "accepted"
+      }
+    ],
+    "residualResources": [],
+    "mutation": {
+      "requestId": "0c70d96b-7d31-42e5-8cae-3f9facafff0c",
+      "replayed": false
+    }
+  },
+  "_meta": {
+    "runtimeId": "af55e6c2-bcd4-480c-9c8d-b9208b1cfbae"
+  }
+}

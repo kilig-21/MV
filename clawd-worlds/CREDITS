@@ -1,0 +1,23 @@
+Clawd · 穿过三种世界 — an unofficial fan short, not made or endorsed by Anthropic.
+
+Character: Claude Code mascot Clawd, depicted at the user's explicit request.
+Claude / Claude Code and associated mascot identity belong to Anthropic.
+The original rig in worlds.js was constructed for this short; no mascot asset was downloaded.
+
+Original scenes, rig, animation, sound design and synthesized score authored for this project.
+No stock footage, stock music or video-generation model.
+
+Lemo-Opuscar / LemoLab: OPUSCAR 98 reusable style prompts as visual grammar;
+core/lib.js, core/audio/sfx.py and core/render tools. MIT License.
+https://github.com/lemomo-ai/lemo-opuscar
+License: references/LEMO-LICENSE.txt
+Prompt excerpts: references/style-prompts.json
+No Oscar-winning film character, set, music or footage has been copied.
+
+Three.js r170, MIT. https://github.com/mrdoob/three.js
+Noto Sans SC, SIL Open Font License 1.1, Google / Noto contributors.
+https://github.com/google/fonts/tree/main/ofl/notosanssc
+Local subsets reused from the earlier Anima project. License: fonts/OFL.txt
+
+FFmpeg Windows build by gyan.dev, GPLv3; production tool, not embedded in the MP4.
+https://www.gyan.dev/ffmpeg/builds/

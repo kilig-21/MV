@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>表情过渡样张 · expr blend</title>
+<style>
+  @font-face {
+    font-family: 'NotoSansSC';
+    src: url('../fonts/NotoSansSC.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: block;
+  }
+  html, body { margin: 0; padding: 0; background: #0b0a0d; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+import { drawExprBlendSheet, EXPR_SHEET_SIZE } from '../src/expr-demo.js';
+
+const { w, h } = EXPR_SHEET_SIZE;
+const c = document.getElementById('c');
+c.width = w; c.height = h;
+c.style.width = w + 'px';
+c.style.height = h + 'px';
+const ctx = c.getContext('2d');
+ctx.textBaseline = 'middle';
+
+await document.fonts.load('500 26px NotoSansSC', '表情过渡样张眼白出现收起惊讶半眯起疑笑到难过震惊嘴眉一起变');
+await document.fonts.load('400 18px NotoSansSC', '过渡前过渡后叠画发灰的组合');
+await document.fonts.load('500 44px NotoSansSC', '表情');
+await document.fonts.ready;
+
+window.render = () => drawExprBlendSheet(ctx);
+window.SHEET_SIZE = { w, h };
+window.READY = true;
+window.render();
+</script>
+</body>
+</html>

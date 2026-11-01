@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>表情总表 · life</title>
+<style>
+  @font-face {
+    font-family: 'NotoSansSC';
+    src: url('../fonts/NotoSansSC.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: block;
+  }
+  html, body { margin: 0; padding: 0; background: #0b0a0d; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+import { drawLifeExpressionSheet, LIFE_SHEET_SIZE } from '../src/sheets-life.js';
+
+const { w, h } = LIFE_SHEET_SIZE;
+const c = document.getElementById('c');
+c.width = w; c.height = h;
+c.style.width = w + 'px';
+c.style.height = h + 'px';
+const ctx = c.getContext('2d');
+ctx.textBaseline = 'middle';
+
+await document.fonts.load('500 26px NotoSansSC', '表情总表眼型嘴型眉毛新增');
+await document.fonts.load('500 44px NotoSansSC', '表情总表');
+await document.fonts.ready;
+
+window.render = () => drawLifeExpressionSheet(ctx, 0);
+window.SHEET_SIZE = { w, h };
+window.READY = true;
+window.render();
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "converter": "ncmdump-py 1.1.6",
+  "source": "D:\\CloudMusic\\VipSongsDownload\\法老,杨秋儒 - 我想part2.ncm",
+  "source_sha256": "049a40f02ca70b3bf5fe9933679b92cf7be10fb7ecaf3ea604a5661d6bc6b2e0",
+  "source_unchanged": true,
+  "audio_file": "C:\\Users\\Lenovo\\Desktop\\ALLCODE\\Anima\\mv-wo-xiang-part2\\assets\\source-audio.flac",
+  "audio_sha256": "df537aa3761ce15a5dcdc119224ba5efad6f900f00c8dbe07fc49fba4192589d",
+  "embedded_format": "flac",
+  "network_used_for_conversion": false
+}

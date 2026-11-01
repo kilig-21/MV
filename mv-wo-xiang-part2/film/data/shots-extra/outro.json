@@ -1,0 +1,102 @@
+{
+  "shots": [
+    {
+      "id": "o-01",
+      "t0": 208.24,
+      "t1": 217.0,
+      "lyric": "（器乐）",
+      "section": "outro",
+      "scene": "城市高架",
+      "camera": "远景，极缓推近并轻跟",
+      "action": "城市压在后景，末班车贴着镜头从左边驶过；车头灯扫过楼面，一串车窗连成流动的光，桥下湿街接住倒影",
+      "change": "车来 → 车走 → 桥面余晖散掉",
+      "transition": "叠化",
+      "module": "./shots/o-01.js",
+      "assets": ["scenes", "scenes-outro-r2"]
+    },
+    {
+      "id": "o-02",
+      "t0": 217.0,
+      "t1": 226.0,
+      "lyric": "（器乐）",
+      "section": "outro",
+      "scene": "空车厢",
+      "camera": "内景，镜头缓慢横移",
+      "action": "空车厢里没有人，车在减速；吊环慢慢摆稳，座位上的报纸翻动，纸杯滚到过道中间",
+      "change": "五根灯管一格格灭，镜头一路横移，车厢一层层暗下去",
+      "transition": "硬切",
+      "module": "./shots/o-02.js",
+      "assets": ["scenes", "scenes-outro", "scenes-outro-r2"]
+    },
+    {
+      "id": "o-03",
+      "t0": 226.0,
+      "t1": 236.0,
+      "lyric": "（器乐）",
+      "section": "outro",
+      "scene": "站台长椅",
+      "camera": "中景，极慢推近",
+      "action": "他坐在站台长椅上，看着车尾缩进隧道；列车带起的风把地上的一张报纸推着走，他的呼吸很轻",
+      "change": "车开走 → 报纸被风带走 → 他垂下眼睛",
+      "transition": "硬切",
+      "module": "./shots/o-03.js",
+      "assets": ["scenes-intro", "scenes-outro", "scenes-outro-r2", "clawd"]
+    },
+    {
+      "id": "o-04",
+      "t0": 236.0,
+      "t1": 247.0,
+      "lyric": "（器乐）",
+      "section": "outro",
+      "scene": "童年视角·站台边缘",
+      "camera": "低机位，贴近地面，缓慢前倾",
+      "action": "机位压到车站地面高度：前景是自己的脚和一张几乎贴着镜头的报纸，黄线外两根钢轨伸进隧道，隧道深处一点点亮起车头灯",
+      "change": "地面 → 轨道 → 隧道里驶来的光",
+      "transition": "叠化",
+      "module": "./shots/o-04.js",
+      "assets": ["scenes-outro-r2"]
+    },
+    {
+      "id": "o-05",
+      "t0": 247.0,
+      "t1": 259.0,
+      "lyric": "（器乐）",
+      "section": "outro",
+      "scene": "城市亮窗·拉远",
+      "camera": "从窗内特写缓慢拉远到整栋楼",
+      "action": "画面先贴着一扇暖窗：他在窗里坐着。镜头用对数速度一路退开，窗、楼层、整栋楼依次进入画面，别的窗一盏盏暗下去",
+      "change": "窗里的人 → 一排窗 → 整栋楼",
+      "transition": "硬切",
+      "module": "./shots/o-05.js",
+      "assets": ["scenes-outro-r2"]
+    },
+    {
+      "id": "o-06a",
+      "t0": 259.0,
+      "t1": 272.0,
+      "lyric": "（器乐）",
+      "section": "outro",
+      "scene": "制作名单",
+      "camera": "固定，背景极缓推近",
+      "action": "压暗的城市当底，暗色斜切底框浮起，四行制作信息按 0.7 / 2.9 / 4.9 / 6.9 s 逐行淡入，末尾整块淡出",
+      "change": "一行一行亮起，再整块退场",
+      "transition": "叠化",
+      "module": "./shots/o-06a.js",
+      "assets": ["scenes-outro", "scenes-outro-r2"]
+    },
+    {
+      "id": "o-06b",
+      "t0": 272.0,
+      "t1": 281.551771,
+      "lyric": "（器乐）",
+      "section": "outro",
+      "scene": "城市窗灯·熄灭",
+      "camera": "远景，固定",
+      "action": "同一片城市，窗灯成簇地灭；中右一扇暖窗压到最后，余晖散尽，画面压回 intro 第一帧的暗度",
+      "change": "满城灯 → 只剩一扇 → 留一点光 → 全暗，接回开场",
+      "transition": "叠化",
+      "module": "./shots/o-06b.js",
+      "assets": ["scenes", "scenes-outro"]
+    }
+  ]
+}

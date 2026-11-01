@@ -1,0 +1,1044 @@
+{
+  "source_audio": "assets/source-audio.flac",
+  "duration": 281.551771,
+  "fps": 24,
+  "timebase": "FLAC 281.551771 s",
+  "lrc_last_lyric": 208.24,
+  "outro_seconds": 73.312,
+  "calibrated": false,
+  "note": "LRC 时间作为初版，尚未逐句对齐 FLAC；使用前需人工校准，误差目标 ±0.15 s。",
+  "sections": [
+    {
+      "name": "intro",
+      "t0": 0.0,
+      "t1": 20.97,
+      "dur": 20.97
+    },
+    {
+      "name": "verse1",
+      "t0": 20.97,
+      "t1": 59.44,
+      "dur": 38.47
+    },
+    {
+      "name": "hook1",
+      "t0": 59.44,
+      "t1": 62.39,
+      "dur": 2.95
+    },
+    {
+      "name": "chorus1",
+      "t0": 62.39,
+      "t1": 82.63,
+      "dur": 20.24
+    },
+    {
+      "name": "verse2",
+      "t0": 83.32,
+      "t1": 121.5,
+      "dur": 38.18
+    },
+    {
+      "name": "hook2",
+      "t0": 121.5,
+      "t1": 124.36,
+      "dur": 2.86
+    },
+    {
+      "name": "chorus2",
+      "t0": 124.36,
+      "t1": 145.4,
+      "dur": 21.04
+    },
+    {
+      "name": "verse3",
+      "t0": 145.93,
+      "t1": 188.12,
+      "dur": 42.19
+    },
+    {
+      "name": "chorus3",
+      "t0": 188.28,
+      "t1": 208.24,
+      "dur": 19.96
+    },
+    {
+      "name": "outro",
+      "t0": 208.24,
+      "t1": 281.552,
+      "dur": 73.312
+    }
+  ],
+  "lines": [
+    {
+      "i": 1,
+      "t0": 17.08,
+      "t1": 20.97,
+      "dur": 3.89,
+      "text": "编曲：杨秋儒",
+      "section": "intro",
+      "meta": true,
+      "calibrated": false
+    },
+    {
+      "i": 2,
+      "t0": 20.97,
+      "t1": 21.89,
+      "dur": 0.92,
+      "text": "他们说他变了",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 3,
+      "t0": 21.89,
+      "t1": 23.17,
+      "dur": 1.28,
+      "text": "歌词不再免费了",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 4,
+      "t0": 23.17,
+      "t1": 25.8,
+      "dur": 2.63,
+      "text": "跑去洛杉矶演出甚至可以免签了",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 5,
+      "t0": 25.8,
+      "t1": 28.34,
+      "dur": 2.54,
+      "text": "拿下几十万的酬劳生活不再艰险",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 6,
+      "t0": 28.34,
+      "t1": 30.3,
+      "dur": 1.96,
+      "text": "不再筹钱拍摄8000",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 7,
+      "t0": 30.3,
+      "t1": 31.11,
+      "dur": 0.81,
+      "text": "吃顿午饭不再差钱",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 8,
+      "t0": 31.11,
+      "t1": 33.76,
+      "dur": 2.65,
+      "text": "路人开始找他签名和时尚杂志搭边",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 9,
+      "t0": 33.76,
+      "t1": 36.15,
+      "dur": 2.39,
+      "text": "收到了很多礼物源源不断的明信片",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 10,
+      "t0": 36.15,
+      "t1": 37.51,
+      "dur": 1.36,
+      "text": "那得之不易的光鲜",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 11,
+      "t0": 37.51,
+      "t1": 38.76,
+      "dur": 1.25,
+      "text": "没有埋没他的历练",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 12,
+      "t0": 38.76,
+      "t1": 41.39,
+      "dur": 2.63,
+      "text": "但是有些东西至今仍在他的骨子里面",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 13,
+      "t0": 41.39,
+      "t1": 44.05,
+      "dur": 2.66,
+      "text": "就像此时此刻他的交通工具仍叫地铁",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 14,
+      "t0": 44.05,
+      "t1": 46.56,
+      "dur": 2.51,
+      "text": "人来人往谁又在乎他是什么逼脸",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 15,
+      "t0": 46.56,
+      "t1": 49.16,
+      "dur": 2.6,
+      "text": "为了成功他在八点半用安眠药来入夜",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 16,
+      "t0": 49.16,
+      "t1": 51.86,
+      "dur": 2.7,
+      "text": "在你玩闹之时他在健身房里付出一切",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 17,
+      "t0": 51.86,
+      "t1": 54.34,
+      "dur": 2.48,
+      "text": "手机app里三个学习英语软件",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 18,
+      "t0": 54.34,
+      "t1": 56.69,
+      "dur": 2.35,
+      "text": "睁开眼睛2pac海报贴在他的床沿",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 19,
+      "t0": 56.69,
+      "t1": 59.44,
+      "dur": 2.75,
+      "text": "Black God告诉他不能满足拥有的一切",
+      "section": "verse1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 20,
+      "t0": 59.44,
+      "t1": 62.39,
+      "dur": 2.95,
+      "text": "他希望自己名字伴随你的每个日夜",
+      "section": "hook1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 21,
+      "t0": 62.39,
+      "t1": 65.93,
+      "dur": 3.54,
+      "text": "我想呼风唤雨",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 22,
+      "t0": 65.93,
+      "t1": 67.6,
+      "dur": 1.67,
+      "text": "用奇妙旋律",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 23,
+      "t0": 67.6,
+      "t1": 71.21,
+      "dur": 3.61,
+      "text": "我想一日千里",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 24,
+      "t0": 71.21,
+      "t1": 72.77,
+      "dur": 1.56,
+      "text": "踩疯狂节奏",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 25,
+      "t0": 72.77,
+      "t1": 74.83,
+      "dur": 2.06,
+      "text": "我想遨游四海",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 26,
+      "t0": 74.83,
+      "t1": 77.97,
+      "dur": 3.14,
+      "text": "让音乐做舟",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 27,
+      "t0": 77.97,
+      "t1": 81.81,
+      "dur": 3.84,
+      "text": "我想睡在梦里",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 28,
+      "t0": 81.81,
+      "t1": 83.32,
+      "dur": 1.51,
+      "text": "醒在梦境",
+      "section": "chorus1",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 29,
+      "t0": 83.32,
+      "t1": 85.06,
+      "dur": 1.74,
+      "text": "他还有很多梦想必须实现",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 30,
+      "t0": 85.06,
+      "t1": 85.93,
+      "dur": 0.87,
+      "text": "但需要时间",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 31,
+      "t0": 85.93,
+      "t1": 88.08,
+      "dur": 2.15,
+      "text": "他想看见太阳却总有乌云遮挡视野",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 32,
+      "t0": 88.08,
+      "t1": 90.65,
+      "dur": 2.57,
+      "text": "别人想得到镶满宝钻红灯绿酒之鞋",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 33,
+      "t0": 90.65,
+      "t1": 93.5,
+      "dur": 2.85,
+      "text": "他却偏偏钟爱布鞋迈步每个台阶",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 34,
+      "t0": 93.5,
+      "t1": 95.93,
+      "dur": 2.43,
+      "text": "外公说有实力的人必须保持谦逊",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 35,
+      "t0": 95.93,
+      "t1": 98.67,
+      "dur": 2.74,
+      "text": "但满大街的忙人却爱等待漫天馅饼",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 36,
+      "t0": 98.67,
+      "t1": 100.86,
+      "dur": 2.19,
+      "text": "曾经他渴望名利错失一段爱情",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 37,
+      "t0": 100.86,
+      "t1": 103.86,
+      "dur": 3.0,
+      "text": "如今他看淡风月把心事给埋藏在了心底",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 38,
+      "t0": 103.86,
+      "t1": 106.33,
+      "dur": 2.47,
+      "text": "他的话在变少总埋头苦干不喘息",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 39,
+      "t0": 106.33,
+      "t1": 108.85,
+      "dur": 2.52,
+      "text": "即使他即刻逝世也能出版四张专辑",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 40,
+      "t0": 108.85,
+      "t1": 109.91,
+      "dur": 1.06,
+      "text": "他必须努力",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 41,
+      "t0": 109.91,
+      "t1": 110.92,
+      "dur": 1.01,
+      "text": "朋友问何必？",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 42,
+      "t0": 110.92,
+      "t1": 111.85,
+      "dur": 0.93,
+      "text": "也许为何力",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 43,
+      "t0": 111.85,
+      "t1": 114.12,
+      "dur": 2.27,
+      "text": "也许为人们明白说唱不是儿戏",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 44,
+      "t0": 114.12,
+      "t1": 116.4,
+      "dur": 2.28,
+      "text": "为了有天他的父亲递给同事耳机",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 45,
+      "t0": 116.4,
+      "t1": 118.99,
+      "dur": 2.59,
+      "text": "自豪他儿子是个了不起的说唱巨星",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 46,
+      "t0": 118.99,
+      "t1": 121.5,
+      "dur": 2.51,
+      "text": "他记得那些无人问津的岁月",
+      "section": "verse2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 47,
+      "t0": 121.5,
+      "t1": 124.36,
+      "dur": 2.86,
+      "text": "他希望自己名字伴随你的每个日夜",
+      "section": "hook2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 48,
+      "t0": 124.36,
+      "t1": 128.24,
+      "dur": 3.88,
+      "text": "我想呼风唤雨",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 49,
+      "t0": 128.24,
+      "t1": 129.9,
+      "dur": 1.66,
+      "text": "用奇妙旋律",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 50,
+      "t0": 129.9,
+      "t1": 133.53,
+      "dur": 3.63,
+      "text": "我想一日千里",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 51,
+      "t0": 133.53,
+      "t1": 135.06,
+      "dur": 1.53,
+      "text": "踩疯狂节奏",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 52,
+      "t0": 135.06,
+      "t1": 138.75,
+      "dur": 3.69,
+      "text": "我想遨游四海",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 53,
+      "t0": 138.75,
+      "t1": 140.26,
+      "dur": 1.51,
+      "text": "让音乐做舟",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 54,
+      "t0": 140.26,
+      "t1": 144.12,
+      "dur": 3.86,
+      "text": "我想睡在梦里",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 55,
+      "t0": 144.12,
+      "t1": 145.93,
+      "dur": 1.81,
+      "text": "醒在梦境",
+      "section": "chorus2",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 56,
+      "t0": 145.93,
+      "t1": 146.72,
+      "dur": 0.79,
+      "text": "他到底属于哪？",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 57,
+      "t0": 146.72,
+      "t1": 148.12,
+      "dur": 1.4,
+      "text": "这答案已经明了",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 58,
+      "t0": 148.12,
+      "t1": 148.89,
+      "dur": 0.77,
+      "text": "他代表智慧",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 59,
+      "t0": 148.89,
+      "t1": 150.57,
+      "dur": 1.68,
+      "text": "代表黎明降临前的鸣鸟",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 60,
+      "t0": 150.57,
+      "t1": 152.81,
+      "dur": 2.24,
+      "text": "他曾在地下留有光辉领你寻宝",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 61,
+      "t0": 152.81,
+      "t1": 155.24,
+      "dur": 2.43,
+      "text": "如今他正在走向伟大你能感知讯号",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 62,
+      "t0": 155.24,
+      "t1": 158.17,
+      "dur": 2.93,
+      "text": "缺乏物质会不太舒服但他懂得知足",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 63,
+      "t0": 158.17,
+      "t1": 160.83,
+      "dur": 2.66,
+      "text": "只有家人才是神赐福的完美艺术",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 64,
+      "t0": 160.83,
+      "t1": 163.15,
+      "dur": 2.32,
+      "text": "也许会有人给你阻挠但你要记住",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 65,
+      "t0": 163.15,
+      "t1": 166.41,
+      "dur": 3.26,
+      "text": "愤怒才不会让你升华只会让你迷路",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 66,
+      "t0": 166.41,
+      "t1": 167.2,
+      "dur": 0.79,
+      "text": "无论你身处何方",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 67,
+      "t0": 167.2,
+      "t1": 168.49,
+      "dur": 1.29,
+      "text": "无论这世界有多疯狂",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 68,
+      "t0": 168.49,
+      "t1": 170.95,
+      "dur": 2.46,
+      "text": "也别让俗套生活掩盖你的锋芒",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 69,
+      "t0": 170.95,
+      "t1": 173.44,
+      "dur": 2.49,
+      "text": "当你拿起公文包挤进上班队列",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 70,
+      "t0": 173.44,
+      "t1": 176.13,
+      "dur": 2.69,
+      "text": "天真在随着你的年龄逐渐退却",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 71,
+      "t0": 176.13,
+      "t1": 180.81,
+      "dur": 4.68,
+      "text": "我知道欲望总是让人无法拒绝",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 72,
+      "t0": 180.81,
+      "t1": 182.24,
+      "dur": 1.43,
+      "text": "但不要尝试与恶魔去交换那副对戒",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 73,
+      "t0": 182.24,
+      "t1": 183.83,
+      "dur": 1.59,
+      "text": "当你失意之时留声机里还有音乐",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 74,
+      "t0": 183.83,
+      "t1": 188.28,
+      "dur": 4.45,
+      "text": "他会循环播放伴随你的每个日夜",
+      "section": "verse3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 75,
+      "t0": 188.28,
+      "t1": 190.47,
+      "dur": 2.19,
+      "text": "我想呼风唤雨",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 76,
+      "t0": 190.47,
+      "t1": 192.15,
+      "dur": 1.68,
+      "text": "用奇妙旋律",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 77,
+      "t0": 192.15,
+      "t1": 195.59,
+      "dur": 3.44,
+      "text": "我想一日千里",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 78,
+      "t0": 195.59,
+      "t1": 197.21,
+      "dur": 1.62,
+      "text": "踩疯狂节奏",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 79,
+      "t0": 197.21,
+      "t1": 200.9,
+      "dur": 3.69,
+      "text": "我想遨游四海",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 80,
+      "t0": 200.9,
+      "t1": 202.57,
+      "dur": 1.67,
+      "text": "让音乐做舟",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 81,
+      "t0": 202.57,
+      "t1": 206.42,
+      "dur": 3.85,
+      "text": "我想睡在梦里",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    },
+    {
+      "i": 82,
+      "t0": 206.42,
+      "t1": 208.24,
+      "dur": 1.82,
+      "text": "醒在梦境",
+      "section": "chorus3",
+      "meta": false,
+      "calibrated": false
+    }
+  ],
+  "calibration": {
+    "method": "vocal-band spectral flux + nearest onset; section-anchor correlation",
+    "median_offset_seconds": 0.017,
+    "within_0_15_seconds": 59,
+    "valid_lines": 79,
+    "section_anchors": {
+      "verse1": -0.05,
+      "chorus1": -0.14,
+      "verse2": 0.02,
+      "chorus2": 0.17,
+      "verse3": 0.01,
+      "chorus3": null
+    },
+    "global_shift_applied": 0.0,
+    "review_lines": [
+      {
+        "i": 3,
+        "t0": 21.89,
+        "offset": -0.16,
+        "text": "歌词不再免费了"
+      },
+      {
+        "i": 5,
+        "t0": 25.8,
+        "offset": -0.17,
+        "text": "拿下几十万的酬劳生活不再艰险"
+      },
+      {
+        "i": 15,
+        "t0": 46.56,
+        "offset": -0.17,
+        "text": "为了成功他在八点半用安眠药来入夜"
+      },
+      {
+        "i": 23,
+        "t0": 67.6,
+        "offset": 0.34,
+        "text": "我想一日千里"
+      },
+      {
+        "i": 24,
+        "t0": 71.21,
+        "offset": -0.2,
+        "text": "踩疯狂节奏"
+      },
+      {
+        "i": 27,
+        "t0": 77.97,
+        "offset": 0.35,
+        "text": "我想睡在梦里"
+      },
+      {
+        "i": 28,
+        "t0": 81.81,
+        "offset": 0.23,
+        "text": "醒在梦境"
+      },
+      {
+        "i": 31,
+        "t0": 85.93,
+        "offset": 0.17,
+        "text": "他想看见太阳却总有乌云遮挡视野"
+      },
+      {
+        "i": 34,
+        "t0": 93.5,
+        "offset": -0.23,
+        "text": "外公说有实力的人必须保持谦逊"
+      },
+      {
+        "i": 37,
+        "t0": 100.86,
+        "offset": 0.22,
+        "text": "如今他看淡风月把心事给埋藏在了心底"
+      },
+      {
+        "i": 48,
+        "t0": 124.36,
+        "offset": 0.17,
+        "text": "我想呼风唤雨"
+      },
+      {
+        "i": 50,
+        "t0": 129.9,
+        "offset": 0.32,
+        "text": "我想一日千里"
+      },
+      {
+        "i": 51,
+        "t0": 133.53,
+        "offset": -0.25,
+        "text": "踩疯狂节奏"
+      },
+      {
+        "i": 52,
+        "t0": 135.06,
+        "offset": -0.18,
+        "text": "我想遨游四海"
+      },
+      {
+        "i": 53,
+        "t0": 138.75,
+        "offset": -0.27,
+        "text": "让音乐做舟"
+      },
+      {
+        "i": 54,
+        "t0": 140.26,
+        "offset": 0.34,
+        "text": "我想睡在梦里"
+      },
+      {
+        "i": 55,
+        "t0": 144.12,
+        "offset": 0.17,
+        "text": "醒在梦境"
+      },
+      {
+        "i": 59,
+        "t0": 148.89,
+        "offset": -0.21,
+        "text": "代表黎明降临前的鸣鸟"
+      },
+      {
+        "i": 75,
+        "t0": 188.28,
+        "offset": null,
+        "text": "我想呼风唤雨"
+      },
+      {
+        "i": 77,
+        "t0": 192.15,
+        "offset": 0.32,
+        "text": "我想一日千里"
+      },
+      {
+        "i": 79,
+        "t0": 197.21,
+        "offset": null,
+        "text": "我想遨游四海"
+      },
+      {
+        "i": 81,
+        "t0": 202.57,
+        "offset": 0.3,
+        "text": "我想睡在梦里"
+      }
+    ],
+    "note": "段落起点偏差 ≤0.17 s，未发现全局偏移；逐句 22 行需人工听校。自动检测只作参考。"
+  }
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYxVJNvjzUJ6xAJaGHLTFYcVbDj2Ot7Ub-_2tzFs9wCla_u3F775TC3PIeU6Q4BhoKnlcnqYAlt-ZA3-2GWp7aYtJTOkp5lteE6ygcciuIY&skey=cf0bb10b5602fdc3&v=v41) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGzjCnYxVJNvjzUJ6xAJaGHLTFYcVbDj2Ot7Ub-_2tzFs9wCla_u3F775TC3PIeU6Q4BhoKnlcnqYAlt-ZA3-2GWp7aYtJTOkp5lteE6ygcciuIY&skey=cf0bb10b5602fdc3&v=v41) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYxVJNvjzUJ6xAJaGHLTFYcVbDj2Ot7Ub-_2tzFs9wCla_u3F775TC3PIeU6Q4BhoKnlcnqYAlt-ZA3-2GWp7aYtJTOkp5lteE6ygcciuIY&skey=cf0bb10b5602fdc3&v=v41) format('truetype');
+}

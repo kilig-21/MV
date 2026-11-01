@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>表情过渡 · 24fps 逐帧</title>
+<style>
+  @font-face {
+    font-family: 'NotoSansSC';
+    src: url('../fonts/NotoSansSC.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: block;
+  }
+  html, body { margin: 0; padding: 0; background: #0b0a0d; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+// 逐帧实测：把最难的 normal→shock（眼白 + 缩瞳 + 压线）按 24fps 的每一帧放大画出来，
+// 用来看「中间那 2 帧到底糊不糊」。输出由 tools/render-expr-sheet.mjs --frames 截图。
+import { P, FONT } from '../src/palette.js';
+import { block } from '../src/ink.js';
+import { clawd } from '../src/character.js';
+import { expr } from '../src/life.js';
+
+const W = 1920, H = 520;
+const RAMP = 0.18, KEY_T = 1.0, FPS = 24;
+const N = 6;
+const c = document.getElementById('c');
+c.width = W; c.height = H;
+c.style.width = W + 'px'; c.style.height = H + 'px';
+const ctx = c.getContext('2d');
+ctx.textBaseline = 'middle';
+
+const label = (text, x, y, size = 20, color = P.ink, align = 'center', weight = 500) => {
+  ctx.fillStyle = color; ctx.font = `${weight} ${size}px ${FONT}`;
+  ctx.textAlign = align; ctx.textBaseline = 'middle'; ctx.fillText(text, x, y);
+};
+
+const keys = [{ t: 0, eyes: 'normal', mouth: 'flat' },
+  { t: KEY_T, eyes: 'shock', mouth: 'o', brow: 'up' }];
+const t0 = KEY_T - RAMP;
+
+document.fonts.load('500 22px NotoSansSC', '帧表情过渡');
+document.fonts.ready.then(() => {
+  ctx.fillStyle = P.cream; ctx.fillRect(0, 0, W, H);
+  label('normal → shock · 0.18s·24fps 逐帧（每格 1 帧，共 6 帧 = 0.25s）', 40, 34, 24, P.ink, 'left');
+  const cw = (W - 80) / N;
+  for (let i = 0; i < N; i++) {
+    const t = t0 + (i - 1) / FPS;                  // 第 1 格是过渡前一帧
+    const e = expr(t, keys, { ramp: RAMP });
+    const x = 40 + i * cw;
+    block(ctx, x + 4, 66, cw - 8, 364, 18, '#F7EFDD',
+      { stroke: 'rgba(167,142,108,0.55)', lw: 3, seed: 100 + i });
+    clawd(ctx, { cx: x + cw / 2, by: 396, u: 17, color: P.orange, seed: 7, ...e });
+    const p = e.eyes && typeof e.eyes === 'object' ? e.eyes.p.toFixed(2)
+      : (e.eyes === keys[1].eyes ? '1.00' : '0.00');
+    label(`${i === 0 ? '过渡前' : (i / FPS * 1000).toFixed(0) + 'ms'} · p=${p}`,
+      x + cw / 2, 462, 17, P.wallShade, 'center', 400);
+  }
+  window.SHEET_SIZE = { w: W, h: H };
+  window.READY = true;
+});
+</script>
+</body>
+</html>

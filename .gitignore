@@ -1,0 +1,50 @@
+# 本地便携工具与安装下载（ffmpeg 等，体积大、可重装）
+.tools/
+
+# 用户提供的音乐与生成的工作音频
+mv-wo-xiang-part2/assets/
+mv-wo-xiang-part2/out/
+*.flac
+*.wav
+*.mp3
+*.m4a
+
+# 渲染产物：所有 out/ 目录、切片与成片视频（可用 build.mjs 重新生成）
+**/out/
+**/output/
+*.mp4
+*.mov
+*.webm
+
+# 字体：只保留渲染工程里的那一份，旧原型目录里的副本不入库
+mv-wo-xiang-part2/style-study/fonts/
+mv-wo-xiang-part2/chorus-preview/fonts/
+mv-wo-xiang-part2/chorus-preview-v2/fonts/
+mv-wo-xiang-part2/chorus-preview-v3/fonts/
+
+# 读图用的降采样副本（tools/view-image.py 生成）
+.cache/
+**/.cache/
+.cache*/
+
+# 依赖与缓存
+**/node_modules/
+**/.venv/
+**/venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 渲染临时文件
+**/raw-*.mp4
+**/*.probe.json
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
